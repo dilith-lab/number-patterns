@@ -23,7 +23,7 @@ Below functions are available to use.
 - classify_pattern
 
 ### Examples of how to use
-#### convert_str_float funtion
+#### convert_str_float - funtion
 This funtion take two parameters **string number list**, **seperator** and return the output as a list with floating values
 
 
@@ -37,7 +37,7 @@ n_list = convert_str_float(num_list, sep=",")
 print(n_list)
 ```
 
-#### check_list funtion
+#### check_list - funtion
 This funtion will take **string number list** and check if the list has at least two items to operate sequence
 
 
