@@ -8,6 +8,10 @@ Developed by Dilith Achalan (c) 2022
 This project is created to identify the number patterns on a given number sequence which will get the difference in sequence and general term or general ratio.
 
 ### Examples of How To Use
+#### convert_str_float funtion
+This funtion take two parameters **string number list**, **seperator** and return the output as a list with floating values
+
+
 ```python
 from numpatterns.numpatt import convert_str_float
 
