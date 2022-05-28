@@ -8,7 +8,8 @@ Developed by Dilith Achalan (c) 2022
 This project is created to identify the number patterns on a given number sequence which will get the difference in sequence and general term or general ratio.
 
 ### How to import the module
-You can import ***numpatt*** module which is inside ***numpatterns*** project folder. You may use below code snippet. 
+You can import ***numpatt*** module which is inside ***numpatterns*** project folder. You may use below code snippet to import ***convert_str_float*** funtion.
+
 ```python
 from numpatterns.numpatt import convert_str_float
 ```
@@ -24,8 +25,7 @@ Below functions are available to use.
 
 ### Examples of how to use
 #### convert_str_float - funtion
-This funtion take two parameters **string number list**, **seperator** and return the output as a list with floating values
-
+This funtion take two parameters **string number list**, **seperator** and return the output as a list with floating values.
 
 ```python
 # get user input to enter a number sequence
@@ -39,7 +39,6 @@ print(n_list)
 
 #### check_list - funtion
 This funtion will take **string number list** and check if the list has at least two items to operate sequence
-
 
 ```python
 n_list = [2, 4, 6, 8]
