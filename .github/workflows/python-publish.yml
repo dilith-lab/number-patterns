@@ -36,11 +36,11 @@ jobs:
     - name: Publish distribution 📦 to Test PyPI
       uses: pypa/gh-action-pypi-publish@master
       with:
-        password: ${{ secrets.pypi-AgEIcHlwaS5vcmcCJGYxNmNlYThkLTgzZWMtNDc5MC05OGZkLWNkZDk5MWZmMGNlZQACQXsicGVybWlzc2lvbnMiOiB7InByb2plY3RzIjogWyJudW1wYXR0LXNlcXVlbmNlIl19LCAidmVyc2lvbiI6IDF9AAAGIDctZFVc1EdnXx7H47JyTtma94r17U3WbrNcOEO4Yxt4 }}
+        password: ${{ secrets.TEST_PYPI_API_TOKEN }}
         repository_url: https://test.pypi.org/legacy/
         skip_existing: true
     - name: Publish distribution 📦 to PyPI
       if: startsWith(github.ref, 'refs/tags')
       uses: pypa/gh-action-pypi-publish@master
       with:
-        password: ${{ secrets.pypi-AgEIcHlwaS5vcmcCJDA5ZWUwM2UzLTMzZTAtNGQxMC05Zjk5LTg3ZDZmYWI3MTJjMwACQXsicGVybWlzc2lvbnMiOiB7InByb2plY3RzIjogWyJudW1wYXR0LXNlcXVlbmNlIl19LCAidmVyc2lvbiI6IDF9AAAGINaFAS0ybAJ1K4iybT1raCvsNh-O6gbonRMVCb2c_HOT }}
+        password: ${{ secrets.PYPI_API_TOKEN }}
