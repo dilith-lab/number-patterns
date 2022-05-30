@@ -7,7 +7,7 @@ here = os.path.abspath(os.path.dirname(__file__))
 with codecs.open(os.path.join(here, "README.md"), encoding="utf-8") as fh:
     long_description = "\n" + fh.read()
 
-VERSION = '0.0.9'
+VERSION = '0.0.11'
 DESCRIPTION = 'Number patterns in a sequence'
 LONG_DESCRIPTION = 'This project is created to identify the number patterns on a given number sequence which will get the difference in sequence and general term or general ratio.'
 
